@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joey Cucco">
+    <title>Contact Us - Hidden Valley Resort</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Hidden Valley Resort</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section id="contactSection">
+            <h2 class="animateBorder">Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns.</p> 
+               <p>We are happy to help you plan your dream vacation with us!</p>
+            <br>
+            <img src="images/swiss-sunset.jpg" alt="A scenic view of Swiss peaks">
+        </section>
+
+        <section id="form">
+            <form  action="https://wp.zybooks.com/form-viewer.php" method="post" class="form-flex">
+                <fieldset>
+                    <legend></legend>
+                    <h3 for="full-name">Full Name *</h3>
+                    <br>
+                    <input type="text" id="full-name" name="full-name" required>
+                    <br>
+
+                    <h3 for="email">Email Address *</h3>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+            
+                    <h3 for="phone">Phone Number *</h3>
+                    <br>
+                    <input type="tel" id="phone" name="phone" required>
+                </fieldset>
+    
+                <fieldset>
+                    <legend></legend>
+                    <h3 for="contact-method">Preferred Contact Method *</h3>
+                    <br>
+                   
+                        <label for="email">Email</label>
+                        <input type="radio" id="email" name="contact-method" value="email">
+                    
+                    
+                        <label for="phone">Phone</label>
+                        <input type="radio" id="phone" name="contact-method" value="phone">
+                    
+                    <h3 for="comments">Comments *</h3>
+                    <br>
+                    <textarea id="comments" name="comments" required></textarea>
+                   <p></p>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>Copyright ©2023 - Hidden Valley Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
